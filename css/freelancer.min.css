@@ -42,7 +42,7 @@ hr.star-light {
 	border-color: #fff
 }
 hr.star-light:after {
-	background-color: #18BC9C;
+	background-color: rgb(244, 153, 255);
 	color: #fff
 }
 hr.star-primary {
@@ -57,7 +57,7 @@ hr.star-primary:after {
 }
 header {
 	text-align: center;
-	background: #18BC9C;
+	background: rgb(244, 153, 255);
 	color: #fff
 }
 header .container {
@@ -70,18 +70,19 @@ header img {
 }
 header .intro-text .name {
 	display: block;
-	font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
-	font-weight: 700;
-	font-size: 2em
+	font-size: 2em;
+	font-family:Monoton;
+	font-weight: 100;
 }
 header .intro-text .skills {
 	font-size: 1.25em;
-	font-weight: 300
+	font-weight: 100;
+	font-family: Pompiere;
 }
 @media (min-width:768px) {
 	header .container {
-		padding-top: 200px;
+		padding-top: 140px;
 		padding-bottom: 100px
 	}
 	header .intro-text .name {
@@ -93,9 +94,9 @@ header .intro-text .skills {
 }
 .navbar-custom {
 	background: #2C3E50;
-	font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: Pompiere;
 	text-transform: uppercase;
-	font-weight: 700;
+	font-weight: 100;
 	border: none
 }
 .navbar-custom .navbar-brand, .navbar-custom .navbar-brand.active, .navbar-custom .navbar-brand:active, .navbar-custom .navbar-brand:focus, .navbar-custom .navbar-brand:hover {
@@ -156,7 +157,7 @@ section h2 {
 	font-size: 3em
 }
 section.success {
-	background: #18BC9C;
+	background: rgb(244, 153, 255);
 	color: #fff
 }
 @media (max-width:767px) {
@@ -440,8 +441,7 @@ footer .footer-below {
 div#maincontent {
 	outline: 0
 }
-
 .suzieimg {
-  width: 24%;
+  width: 20%;
   border-radius: 50%;
 }
