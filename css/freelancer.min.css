@@ -50,7 +50,7 @@ hr.star-primary {
 }
 hr.star-primary:after {
 	background-color: #fff;
-	color: #2C3E50
+	color: #2C3E50;
 }
 .img-centered {
 	margin: 0 auto
@@ -157,7 +157,7 @@ section h2 {
 	font-size: 3em
 }
 section.success {
-	background: rgb(244, 153, 255);
+	background: #2098d1;
 	color: #fff
 }
 @media (max-width:767px) {
