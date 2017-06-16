@@ -42,7 +42,7 @@ hr.star-light {
 	border-color: #fff
 }
 hr.star-light:after {
-	background-color: rgb(244, 153, 255);
+	background-color: #2098d1;
 	color: #fff
 }
 hr.star-primary {
