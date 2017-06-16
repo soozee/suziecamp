@@ -442,8 +442,9 @@ div#maincontent {
 	outline: 0
 }
 .suzieimg {
-  width: 20%;
+  width: 50%;
   border-radius: 50%;
+  margin: 0 auto;
 }
 /* slider whatnot */
 
