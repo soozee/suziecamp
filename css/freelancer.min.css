@@ -447,9 +447,8 @@ div#maincontent {
   margin: 0 auto;
 }
 /* slider whatnot */
-
-
 @import url(https://fonts.googleapis.com/css?family=Varela+Round);
+
 .slides {
     padding: 0;
     width: 100%;
@@ -486,7 +485,7 @@ div#maincontent {
 }
 
 .slide img {
-    height: 100%;
+    width: 100%;
 }
 
 .nav label {
