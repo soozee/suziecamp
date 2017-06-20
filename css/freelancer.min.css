@@ -454,7 +454,7 @@ div#maincontent {
     width: 100%;
     height: 250px;
     display: block;
-    margin: 0 auto;
+    margin: 0 auto 30px;
     position: relative;
 }
 
