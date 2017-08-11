@@ -1,0 +1,31 @@
+body {
+  background:url(https://wallpaperscraft.com/image/paris_france_building_sky_street_108895_1920x1080.jpg);
+  background-position: center;
+  background-repeat: repeat-x;
+  color:#fff;
+  font-family:Pacifico;
+  text-align:center;
+}
+button {
+  padding:15px;
+  font-size:20px;
+  font-family:lobster;
+}
+button:hover {
+  background:url('http://rs641.pbsrc.com/albums/uu136/lllisalllindsay/Borders%20and%20Dividers/0020llisallindsay.gif?w=280&h=210&fit=crop') #fff;   
+}
+h1 {
+  text-shadow:1px 2px #000;
+  font-size:88px;
+  margin-bottom: 7px;
+}
+#dateDisplay {
+  padding:20px;
+  font-family: 'Bowlby One SC';
+  font-size:40px; 
+  background-color: rgba(255, 255, 255, 0.6);
+  text-shadow:1px 2px rgb(214, 214, 214);
+  color: #46063d;
+  width:75%;
+  margin: 10px auto;
+}
