@@ -1,10 +1,17 @@
+window.onload = function() {
+	document.getElementById('get-new-date').addEventListener("click", function( event ) {
+		newDate();
+		cutePic();
+	})
+}
+
 function newDate() {
   var randomNumber = Math.floor(Math.random() * (dates.length));
   document.getElementById('dateDisplay').innerHTML = dates[randomNumber];
 } 
 function cutePic() {
-	var randomPic	= math.floor(Math.random() * (pics.length));
-	document.getElementById('pic').innerHTML = pics[randomNumber];
+	var randomPic	= Math.floor(Math.random() * (pics.length));
+	document.getElementById('pic').src = pics[randomPic];
 }
 var pics = [
 	'https://content-na.drive.amazonaws.com/cdproxy/templink/7si4NOkajda9TwV0uqyIEfgZEWMZwpTRK1s_F2XOjEseJxFPc?viewBox=519%2C692',
